@@ -1,5 +1,7 @@
 package com.allezsedan.sedanfootball.bean.news;
 
+import java.util.Date;
+
 /**
  * Reprensent un itm of RSS flux (version 2)
  * Created by dessard on 26/05/15.
@@ -8,7 +10,7 @@ public class Item {
 
     private String title;
 
-    private String pubDate;
+    private Date pubDate;
 
     private String description;
 
@@ -24,11 +26,11 @@ public class Item {
         this.title = title;
     }
 
-    public String getPubDate() {
+    public Date getPubDate() {
         return pubDate;
     }
 
-    public void setPubDate(String pubDate) {
+    public void setPubDate(Date pubDate) {
         this.pubDate = pubDate;
     }
 
