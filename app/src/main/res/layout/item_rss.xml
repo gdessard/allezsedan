@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?><!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"--><!--android:orientation="vertical" android:layout_width="match_parent"--><!--android:layout_height="match_parent">-->
+
+<!--</LinearLayout>-->
+
+
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/gridLayout_item_rss"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:columnCount="2">
+
+    <!-- 1ere ligne -->
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_launcher"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Titre de la news fdgsfd fdg fds"
+        android:id="@+id/titre_item_rss"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="2"
+        android:text="Description de la news dsfsdqf sdf sdqf sdfsd fsd fsdf sdqf sdqf sdqf sdqf sdqf sdqf sdqfsdqf sdqf sqdf sq"
+        android:id="@+id/description_item_rss"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="2"
+        android:layout_gravity="right"
+        android:text="20/05/2015"
+        android:id="@+id/date_item_rss"/>
+
+
+</GridLayout>
